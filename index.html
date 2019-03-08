@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Infinite Scroller Example</title>
+
+    <style>
+        body {
+            overflow: hidden;
+        }
+     html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+     }
+     main {
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+     }
+     main ul {
+        list-style: none;
+     }
+     main ul li {
+        width: 400px;
+        height: 400px;
+        background-color: rgb(230, 230, 230);
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+     }
+    </style>
+</head>
+<body>
+  <main id="infinite">
+    <ul>
+     <li>
+      <img src="assets\images\Earth.jpg" alt="image title" width="400">
+     </li>
+     <li>
+      <img src="assets\images\Jupiter.jpg" alt="image title" width="400">
+     </li>
+     <li>
+      <img src="assets\images\Mars.jpg" alt="image title" width="400">
+     </li>
+     <li>
+      <img src="assets\images\Mercury.jpg" alt="image title" width="400">
+     </li>
+     <li>
+      <img src="assets\images\Neptune.jpg" alt="image title" width="400">
+     </li>
+     <li>
+      <img src="assets\images\Saturn.jpg" alt="image title" width="400">
+     </li>
+     <li>
+      <img src="assets\images\Uranus.jpg" alt="image title" width="400">
+     </li>
+     <li>
+      <img src="assets\images\Venus.jpg" alt="image title" width="400">
+     </li>
+    </ul>
+  </main>
+
+<script src="javascripts/InfiniteScroller/InfiniteScroller.v0.0.1.js">
+</script>
+<script>
+    window.onload = new InfiniteScroller({
+        debug: false,
+        selector: '#infinite'
+    }, true);
+</script>
+</body>
+</html>
