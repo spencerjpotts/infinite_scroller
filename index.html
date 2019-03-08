@@ -68,10 +68,13 @@
 <script src="javascripts/InfiniteScroller/InfiniteScroller.v0.0.1.js">
 </script>
 <script>
-    window.onload = new InfiniteScroller({
-        debug: false,
-        selector: '#infinite'
-    }, true);
+    window.onload = function() {
+        let infiniteScroller = new InfiniteScroller({
+            debug: true,
+            selector: '#infinite',
+            offsetFromBottom: 100
+        }, true)
+    }
 </script>
 </body>
 </html>
