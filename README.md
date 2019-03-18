@@ -43,3 +43,6 @@ See also the list of [contributors](https://github.com/spencerjpotts/) who parti
 # Bugs / Issues
 If you find any bugs in the package, please search our issue tracker first. If it has not been reported, please create a new issue so that our team can assist you as quickly as possible.
 Or visit discord [Join the Discord](https://discord.gg/262RFta) 
+
+# Donate
+[![](https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NUM5LS6HQ5CCQ&currency_code=AUD&source=url)
