@@ -16,11 +16,6 @@ These instructions will get you a copy of the project up and running on your loc
  
  [Join the Discord](https://discord.gg/262RFta)
 
- 
-# Prerequisites
-## 1
-
-
 # Documentation
 ## Quick Reference
 ```javascript
@@ -29,7 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
        debug: false,
        selector: '#infinite'
     }, true);
-    
+
 ```
 ## Refer to wiki
 [Infinite Scroller Wiki]()
@@ -46,7 +41,5 @@ See also the list of [contributors](https://github.com/spencerjpotts/) who parti
 
  
 # Bugs / Issues
-If you find a bug in the bot, please search our issue tracker first. If it has not been reported, please create a new issue so that our team can assist you as quickly as possible.
-
-
-# Disclaimer
+If you find any bugs in the package, please search our issue tracker first. If it has not been reported, please create a new issue so that our team can assist you as quickly as possible.
+Or visit discord [Join the Discord](https://discord.gg/262RFta) 
