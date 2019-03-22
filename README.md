@@ -20,10 +20,14 @@ These instructions will get you a copy of the project up and running on your loc
 ## Quick Reference
 ```javascript
 
-    window.onload = new InfiniteScroller({
-       debug: false,
-       selector: '#infinite'
-    }, true);
+    window.onload = function() {
+        let options = {
+            debug: false,
+            selector: "#infinite"
+        };
+
+        let infiniteScroller = new Infinitescroller(options);
+    }
 
 ```
 ## Refer to wiki
